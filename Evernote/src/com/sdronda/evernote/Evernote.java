@@ -10,6 +10,7 @@ public class Evernote extends Activity{
 	private static final String CONSUMER_SECRET = "0b00895f7dccb152";
 	private static final EvernoteSession.EvernoteService EVERNOTE_SERVICE = EvernoteSession.EvernoteService.SANDBOX;
 
+	
 	// Set this to true if you want to allow linked notebooks for accounts that can only access a single notebook.
 	private static final boolean SUPPORT_APP_LINKED_NOTEBOOKS = true;
 	protected EvernoteSession mEvernoteSession; //= EvernoteSession.getInstance(this, CONSUMER_KEY, CONSUMER_SECRET, EVERNOTE_SERVICE);;
